@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de agregacion de vehiculos</title>
+</head>
+<body>
+    <form method="post"> {% csrf_token %}
+        <strong> <h2> Agregar un nuevo vehiculo a la base de datos</h2></strong>
+        <input type="text" placeholder="Tipo de Vehiculo" name="tipo_vehiculo"> <br> <br>
+        <input type="text" placeholder="Patente del Vehiculo" name="patente_vehiculo"> <br> <br>
+        <input type="text" placeholder="Estado del vehiculo" name="estado_vehiculo"> <br> <br>
+        <input type="text" placeholder="Fecha del service" name="fecha_service"> <br> <br>
+        <input type="submit" value="Crear">
+    </form>
+
+</body>
+</html>

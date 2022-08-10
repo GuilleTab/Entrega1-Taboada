@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de agregacion de nuevos articulos</title>
+</head>
+<body>
+    <form method="post"> {% csrf_token %}
+        <strong> <h2> Agregar un nuevo producto a la base de datos</h2></strong>
+        <input type="text" placeholder="Producto" name="nombre"> <br> <br>
+        <input type="text" placeholder="Marca" name="marca"> <br> <br>
+        <input type="text" placeholder="Precio" name="precio"> <br> <br>
+        <input type="text" placeholder="stock" name="stock"> <br> <br>
+        <input type="submit" value="Crear">
+    </form>
+
+</body>
+</html>
