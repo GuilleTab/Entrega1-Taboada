@@ -6,7 +6,7 @@ def index(request):
 
     listado_personal = Personal.objects.all()
 
-    if request.GET.get("nombre_personal"):
+    if request.GET.get("nombre"):
 
         formulario = FormularioBusqueda(request.GET)
 
