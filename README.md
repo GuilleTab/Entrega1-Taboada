@@ -16,12 +16,12 @@ Una vez hecha la clonación del proyecto usando "git clone", podrás hacer corre
 Una vez que estes dentro de la carpeta "src", donde se encuentra el archivo manage.py, desde la terminal se debe ejecutar el comando: python .\manage.py runserver , lo que hará "correr" la página web. 
 
 # Rutas habilitadas para probar
-productos/inicio/ 
-productos/articulos/ 
-productos/personal/ 
-productos/crear/articulo/
-productos/crear/miembro/ 
-productos/crear/vehiculo/
+* productos/inicio/ 
+* productos/articulos/ 
+* productos/personal/ 
+* productos/crear/articulo/
+* productos/crear/miembro/ 
+* productos/crear/vehiculo/
 
 
 
